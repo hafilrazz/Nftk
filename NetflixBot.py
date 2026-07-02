@@ -115,7 +115,7 @@ START_MSG = (
     "<code>\n"
     "  NETFLIX COOKIES VALIDATOR BOT \n\n"
     "  1. Choose mode below\n"
-    "  2. Upload file in this format .txt/.json/.zip file\n"
+    "  2. Upload .txt/.json/.zip file\n"
     "  3. processed results\n"
     "</code>"
 )
