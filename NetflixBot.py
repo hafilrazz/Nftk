@@ -27,8 +27,8 @@ from urllib3.exceptions import InsecureRequestWarning
 import urllib.parse
 
 TOKEN = "8792742209:AAGmtqgLEtlMXX_46me3AfMcBNfTd35BKY0"
-OWNER_ID = 6177293322
-ADMIN_IDS = [6177293322]
+OWNER_ID = 1461377622
+ADMIN_IDS = [1461377622]
 WATERMARK = "@ritsurex"
 
 MAX_WORKERS = 20
