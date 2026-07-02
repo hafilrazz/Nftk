@@ -1360,13 +1360,13 @@ if __name__ == "__main__":
     os.makedirs(COOKIES_DIR, exist_ok=True)
     
     print("=" * 50)
-    print("  Netflix Multi-Tool Bot - FIXED")
+    print("  NETFLIX COOKIES VALIDATOR BOT - FIXED")
     print("=" * 50)
     print(f"  Vault cookies: {count_vault_cookies()}")
     print(f"  Proxies: {len(proxies_list)}")
     print(f"  {WATERMARK}")
     print("=" * 50)
-    
+    print(build_nftoken_str_from_data)
     app = ApplicationBuilder().token(TOKEN).build()
     
     app.add_handler(CommandHandler("start", start))
