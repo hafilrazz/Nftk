@@ -118,7 +118,6 @@ START_MSG = (
     "[ Step 2 ] Upload .txt/.json/.zip file\n"
     "[ Step 3 ] Get results\n"
     "</code>"
-    "<a href=\"https://t.me/KindCoders\">‎ </a>"
 )
 
 MAIN_MARKUP = InlineKeyboardMarkup([
