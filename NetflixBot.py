@@ -1366,7 +1366,6 @@ if __name__ == "__main__":
     print(f"  Proxies: {len(proxies_list)}")
     print(f"  {WATERMARK}")
     print("=" * 50)
-    print(build_nftoken_str_from_data)
     app = ApplicationBuilder().token(TOKEN).build()
     
     app.add_handler(CommandHandler("start", start))
