@@ -113,18 +113,18 @@ requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 START_MSG = (
     "<code>\n"
-    " █ NETFLIX MULTI-TOOL BOT █\n\n"
-    "[ Step 1 ] Choose mode below\n"
-    "[ Step 2 ] Upload .txt/.json/.zip file\n"
-    "[ Step 3 ] Get results\n"
+    "  NETFLIX COOKIES VALIDATOR BOT \n\n"
+    "  1. Choose mode below\n"
+    "  2. Upload file in this format .txt/.json/.zip file\n"
+    "  3. processed results\n"
     "</code>"
 )
 
 MAIN_MARKUP = InlineKeyboardMarkup([
-    [InlineKeyboardButton("🔍 Check Account", callback_data="mode_check"),
-     InlineKeyboardButton("🔑 Get NF Token", callback_data="mode_nftoken")],
-    [InlineKeyboardButton("🧹 Clean Cookies", callback_data="mode_clean"),
-     InlineKeyboardButton("📺 Free TV Login", callback_data="mode_tvlogin")]
+    [InlineKeyboardButton(" Check Account", callback_data="mode_check"),
+     InlineKeyboardButton(" Get NF Token", callback_data="mode_nftoken")],
+    [InlineKeyboardButton(" Clean Cookies", callback_data="mode_clean"),
+     InlineKeyboardButton(" TV Login", callback_data="mode_tvlogin")]
 ])
 
 CHECK_MARKUP = InlineKeyboardMarkup([
