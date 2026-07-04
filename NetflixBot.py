@@ -26,7 +26,7 @@ from telegram.error import BadRequest
 from urllib3.exceptions import InsecureRequestWarning
 import urllib.parse
 
-TOKEN = "8792742209:AAHq75P0iYPKIS-0RqE1HjyJzZ9vGfPtW_s"
+TOKEN = "8792742209:AAEIOczByfqG0Rnmnf4htBlQnDjfiJaoXEo"
 OWNER_ID = 1461377622
 ADMIN_IDS = [1461377622]
 WATERMARK = "@ritsurex"
